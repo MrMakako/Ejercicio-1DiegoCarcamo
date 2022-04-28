@@ -2,10 +2,30 @@
 //
 
 #include <iostream>
+#include<string.h>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    
+
+
+
+    std::cout << "entero\t" << "Cuadrado\t"<<"cubo\n";
+    for (int i = 1; i < 11; i++) {
+    
+        
+        std::cout << i << "\t" << (i*i)<<"\t" << (i * i * i) << std::endl;
+
+    
+    
+    }
+
+   
+
+
+
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
