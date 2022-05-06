@@ -16,7 +16,7 @@ Cuenta::Cuenta(int monto, std::string nombre)
 void Cuenta::abonar(int monto)
 {
 	
-
+	//Listo
 	saldo += monto;
 	std::cout << "Se ha abonado:" << monto << "\n";
 
