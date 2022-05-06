@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApp", "ConsoleApp\Co
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EjercicioClase3", "EjercicioClase3\EjercicioClase3.vcxproj", "{7160229D-2BFB-4BD2-83EF-DC8E7E92DCA1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cuadrado", "Cuadrado\Cuadrado.vcxproj", "{8C140C6E-7E13-4056-BDB9-198D02E9405E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{7160229D-2BFB-4BD2-83EF-DC8E7E92DCA1}.Release|x64.Build.0 = Release|x64
 		{7160229D-2BFB-4BD2-83EF-DC8E7E92DCA1}.Release|x86.ActiveCfg = Release|Win32
 		{7160229D-2BFB-4BD2-83EF-DC8E7E92DCA1}.Release|x86.Build.0 = Release|Win32
+		{8C140C6E-7E13-4056-BDB9-198D02E9405E}.Debug|x64.ActiveCfg = Debug|x64
+		{8C140C6E-7E13-4056-BDB9-198D02E9405E}.Debug|x64.Build.0 = Debug|x64
+		{8C140C6E-7E13-4056-BDB9-198D02E9405E}.Debug|x86.ActiveCfg = Debug|Win32
+		{8C140C6E-7E13-4056-BDB9-198D02E9405E}.Debug|x86.Build.0 = Debug|Win32
+		{8C140C6E-7E13-4056-BDB9-198D02E9405E}.Release|x64.ActiveCfg = Release|x64
+		{8C140C6E-7E13-4056-BDB9-198D02E9405E}.Release|x64.Build.0 = Release|x64
+		{8C140C6E-7E13-4056-BDB9-198D02E9405E}.Release|x86.ActiveCfg = Release|Win32
+		{8C140C6E-7E13-4056-BDB9-198D02E9405E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

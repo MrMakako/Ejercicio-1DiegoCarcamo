@@ -1,27 +1,14 @@
-// ConsoleApp.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Cuadrado.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-#include "Cuenta.h"
+#include "Rectangulo.h"
 int main()
 {
+	Rectangulo r1(0, 10, 20, 10, 0, 0, 20, 0);
+	Rectangulo r2(1, 20, 19, 0, 2, 4, 5, 2);
 
-
-
-    Cuenta c1(100, "Mario");
-    Cuenta c2(0, "Cesar");
-    Cuenta c3(-10, "George");
-
-
-    c1.imprimirSaldo();
-    c2.imprimirSaldo();
-    c3.imprimirSaldo();
-
-
-    c1.cargar(30);
-    c2.cargar(10);
-    c3.abonar(600);
-    
+	Rectangulo r3(4, 10, 20, 10, 0, 0, 20, 0);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

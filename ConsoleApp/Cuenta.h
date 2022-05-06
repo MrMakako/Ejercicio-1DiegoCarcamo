@@ -1,12 +1,12 @@
 #pragma once
 
-#include <iostream>;
+#include <iostream>
 
 #include <string>
 
 #ifndef CUENTA_H
 
-#define CUENTA_H;
+#define CUENTA_H
 
 
 class Cuenta

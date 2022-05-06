@@ -15,8 +15,10 @@ Cuenta::Cuenta(int monto, std::string nombre)
 
 void Cuenta::abonar(int monto)
 {
+	
 
 	saldo += monto;
+	std::cout << "Se ha abonado:" << monto << "\n";
 
 }
 
@@ -27,6 +29,7 @@ bool Cuenta::cargar(int monto)
 	}
 	else {
 		saldo = saldo - monto;
+		std::cout << "Se ha cargado el restante es:" << saldo << "\n";
 		return true;
 	}
 }
