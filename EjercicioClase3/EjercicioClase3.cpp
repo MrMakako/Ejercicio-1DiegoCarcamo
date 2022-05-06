@@ -1,42 +1,15 @@
-// Ejercicios en clase.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// EjercicioClase3.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-#include<string.h>
-#include "Racional.h"
-
+#include "Binario.h"
 int main()
 {
-    
-
-
-    Racional R1(10,5);
-   
-    
-    R1.ImprimirRacional();
-
-
-
-
-    
-   
-
-    std::cout << "entero\t" << "Cuadrado\t"<<"cubo\n";
-    for (int i = 1; i < 11; i++) {
-    
-        
-        std::cout << i << "\t" << (i*i)<<"\t" << (i * i * i) << std::endl;
-
-    
-    
-    }
-
-   
-
-
-
-
-
+    std::cout << "Hello World!\n";
+    Binario b1("00000111");
+    Binario b2("00010111");
+    Binario b3 = b1 + b2;
+    std::cout << b3;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

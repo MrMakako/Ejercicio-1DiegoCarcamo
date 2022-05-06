@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c6f7e446-dc48-41f9-bea7-fbd1c97601a0}</ProjectGuid>
-    <RootNamespace>Ejerciciosenclase</RootNamespace>
+    <ProjectGuid>{22259c09-114d-43b4-8184-2305535eae74}</ProjectGuid>
+    <RootNamespace>ConsoleApp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,12 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ejercicios en clase.cpp" />
-    <ClCompile Include="Racional.cpp" />
+    <ClCompile Include="Cuenta.cpp" />
+    <ClCompile Include="Ejerccio9.12.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Ejercicios en clase.h" />
-    <ClInclude Include="Racional.h" />
+    <ClInclude Include="Cuenta.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,18 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ejercicios en clase.cpp">
+    <ClCompile Include="EjercicioClase3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Racional.cpp">
+    <ClCompile Include="Binario.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Racional.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Ejercicios en clase.h">
+    <ClInclude Include="Binario.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

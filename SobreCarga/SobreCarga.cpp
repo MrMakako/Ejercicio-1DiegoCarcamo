@@ -1,42 +1,15 @@
-// Ejercicios en clase.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// SobreCarga.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
-#include<string.h>
-#include "Racional.h"
-
+#include "Frac.h"
 int main()
 {
-    
+	Frac frac1(1, 3);
+	Frac frac2(2, 3);
 
 
-    Racional R1(10,5);
-   
-    
-    R1.ImprimirRacional();
-
-
-
-
-    
-   
-
-    std::cout << "entero\t" << "Cuadrado\t"<<"cubo\n";
-    for (int i = 1; i < 11; i++) {
-    
-        
-        std::cout << i << "\t" << (i*i)<<"\t" << (i * i * i) << std::endl;
-
-    
-    
-    }
-
-   
-
-
-
-
-
+	Frac frac3 = frac1 + frac2;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
